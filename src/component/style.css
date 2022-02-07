@@ -1,0 +1,62 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.main-list{
+    width: 480px;
+    background-color: rgb(15, 15, 15);
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    color: white;
+    margin-left:12px ;
+    align-items: center;
+}
+.list h1{
+    margin-left:10px ;
+    font-size: 28px;
+    position: relative;
+    
+}
+.list p{
+   align-items: center;
+   color: rgb(119, 119, 119);
+   font-size: 19px;
+   margin-left: 8px;
+  
+
+}
+.main-list .title{
+    padding: 10px 0 10px 0;    
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid rgb(88, 88, 88);
+}
+.list img{
+    width: 70px;
+    height: 70px;
+    border-radius:50% ;
+}
+.main-button{
+    display: flex;
+    justify-content: center;
+}
+button {
+    all: unset;
+    color: white;
+    padding: 5px 14px;
+    border: 1px solid ;
+    margin: 4px 8px 20px 14px;
+    cursor: pointer;
+}
+@media (max-width:550px) {
+    .main-list{
+        width: 95%;
+        
+    }
+}
